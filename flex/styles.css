@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset{
+    width: 50vw;
+    height: 50vh;
+    padding: 50px;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(46, 71, 71);
+}
+label{
+    color: white;
+    text-transform: capitalize;
+}
+input{
+    width: 25vw;
+    height: 25px;
+    border: none;
+    border-color: red;
+    border-radius: 25px;
+}
+button{
+    width: 25vw;
+    height: 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(103, 202, 138);
+    color: rgb(15, 9, 9);
+}
