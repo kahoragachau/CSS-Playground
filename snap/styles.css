@@ -17,9 +17,6 @@ h3{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    /* scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-    scroll-snap-align: center; */
 }
 .snaps{
     border: 2px solid pink;
@@ -38,7 +35,4 @@ img{
     padding-left: 15px;
     /* scroll-snap-align is placed on the child */
     scroll-snap-align: center;
-    /* scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    scroll-snap-align: center; */
 }
