@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+h3{
+    text-align: center;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
+}
+.snaps{
+    border: 2px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: center; */
+}
+img{
+    height: 500px;
+}
+.naruto-images{
+    padding-left: 25px;
+    /* scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scroll-snap-align: center; */
+}
